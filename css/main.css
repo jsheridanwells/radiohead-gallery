@@ -1,0 +1,38 @@
+/*BOTTOM LAYER STYLES*/
+.container {
+	margin: 0 auto;
+	max-width: 80%;
+	background-color: #ddd;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	margin: 1em;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-basis: 800px;
+}
+
+img {
+	margin: 1em auto;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+}
+
+//*OVERLAY STYLES*/
+
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 500px) {
+	img {
+		margin: 1em 1em;
+	}
+}
