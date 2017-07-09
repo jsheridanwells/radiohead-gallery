@@ -24,10 +24,14 @@ section {
 	flex-basis: 800px;
 }
 
-img {
+section img {
 	margin: 1em auto;
 	width: 200px;
 	height: 200px;
+}
+
+section img:hover {
+	cursor: pointer;
 }
 
 /*OVERLAY STYLES*/
@@ -54,6 +58,8 @@ img {
 
 #overlay img {
 	margin: 3em auto;
+	width: 500px;
+	height: 500px;
 }
 
 p {
