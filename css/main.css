@@ -32,7 +32,6 @@ img {
 
 /*OVERLAY STYLES*/
 #overlay {
-	display: none;
 	z-index: 100;
 	position: fixed;
 	top: 0;
@@ -43,6 +42,14 @@ img {
 	background-color: rgba(50, 50, 50, 0.5);
 	text-align: center;
 	border: 1px solid red;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: initial;
 }
 
 #overlay img {
